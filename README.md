@@ -7,15 +7,14 @@ Anschliessend muss man diesen Schlüssel zusammen mit dem folgenden befehl in di
   
 
       git clone SSH-Schlüssel
+**PS**:Falls sie noch keinen Schlüssel haben können sie sich einen unter einstellungen in Github erstellen.
 ## Installation der notwendigen Pakete
 
 ## Docker-Konfiguration und -Installation  
 ### Docker Installiation
-Um Docker für den Desktop zu Installieren klicken sie auf den folgenden Link.  
-[Doker Desktop](https://www.docker.com/products/docker-desktop/)  
-**Achtung**: Achten sie darauf das die Version mit ihrem Prozessor Kompatibel ist. 
-
-Anschliessend sollten sie Docker auch noch für Visual Studio code installieren.  
+Um Docker für den Desktop zu Installieren klicken sie auf den folgenden Link. Anschliessend sollten sie Docker auch noch für Visual Studio code installieren.  
+**Achtung**: Achten sie darauf das die Version mit ihrem Prozessor Kompatibel ist.  
+[Doker Desktop](https://www.docker.com/products/docker-desktop/)   
 [Docker VS](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
 ### Docker Konfiguration
 Nach dem Installieren von Docker ist es wicht gewisse Dinge noch zu Konfigurieren.  
@@ -32,3 +31,7 @@ Um WSL standartmässig zu aktivieren sollte man den Folgenden befehl ebenfalls e
 
       wsl --set-default-version 2
 ## Starten der Applikation in einem Docker-Container  
+Um die Applikation im Docker-Container zu Starten muss man nur einen Simplen befehl eingeben:
+
+
+      docker compose up --build

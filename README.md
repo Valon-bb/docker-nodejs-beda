@@ -1,4 +1,5 @@
 # Vorgehen beim Projekt  
+![download](https://github.com/user-attachments/assets/9585929e-f97f-42af-ba1b-4790f98d4b46)
 ## Klonen des Repositories
 Um das Repositorie auf den Laptob zu Klonen muss man zubeginn den SSH Schlüssel auf github finden und kopieren. Diesen Schlüssel findet man, wenn man in das     Reposetorie geht und dort auf Code clickt.  
 Anschliessend muss man diesen Schlüssel zusammen mit dem folgenden befehl in die Git Bash eingeben.    

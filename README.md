@@ -9,7 +9,23 @@ Anschliessend muss man diesen Schlüssel zusammen mit dem folgenden befehl in di
       git clone SSH-Schlüssel
 **PS**:Falls sie noch keinen Schlüssel haben können sie sich einen unter einstellungen in Github erstellen.
 ## Installation der notwendigen Pakete
+Um die Applikation auf dem Docker zu starten muss man zuerst noch ein paar Dinge tun.
+Zuerst sollten sie im Powershell des kopierten Reposetorys diesen Befehl eingeben:
 
+
+      git clone https://github.com/docker/docker-nodejs-sample  
+Anschliessend können sie noch einen weiteren Befehl eingeben um die Docker Assets anzupassen:
+
+
+      docker init
+Danach sollten sie das ganze wie folgt anpassen:
+
+
+      ? What application platform does your project use? Node
+      ? What version of Node do you want to use? 18.0.0
+      ? Which package manager do you want to use? npm
+      ? What command do you want to use to start the app: node src/index.js
+      ? What port does your server listen on? 3000
 ## Docker-Konfiguration und -Installation  
 ### Docker Installiation
 Um Docker für den Desktop zu Installieren klicken sie auf den folgenden Link. Anschliessend sollten sie Docker auch noch für Visual Studio code installieren.  
@@ -35,3 +51,7 @@ Um die Applikation im Docker-Container zu Starten muss man nur einen Simplen bef
 
 
       docker compose up --build
+Nun können sie im Browser unter diesem Link die Applikation begutachten:
+
+
+      http://localhost:3000/
